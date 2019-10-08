@@ -20,7 +20,7 @@
 $host = "database-1.crpvidwhjdlz.eu-west-3.rds.amazonaws.com";                                    // MySQL host name eg. localhost
 $user = "admin";                                         // MySQL user. eg. root
 $password = "M781227salma*";                                         // MySQL user password 
-$database = "database-1";                                 // MySQL Database name
+$database = "crud_test";                                 // MySQL Database name
 
 $con = new mysqli($host, $user, $password, $database);  // Connect to MySQL Database
 
